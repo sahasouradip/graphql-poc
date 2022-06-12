@@ -1,0 +1,46 @@
+[{
+  "socialSecurityNumber": "ssn-1",
+  "addresses": [{
+    "address1": "address1-1",
+    "address2": "address2-1",
+    "pin": "pin-1"
+  }],
+  "email": {
+    "email": "email-1",
+    "emailType": "emailType-1"
+  },
+  "phones": [{
+    "phoneNumber": "phoneNumber-1",
+    "phoneType": "phoneType-1"
+  }]
+}, {
+  "socialSecurityNumber": "ssn-2",
+  "addresses": [{
+    "address1": "address1-2",
+    "address2": "address2-2",
+    "pin": "pin-2"
+  }],
+  "email": {
+    "email": "email-2",
+    "emailType": "emailType-2"
+  },
+  "phones": [{
+    "phoneNumber": "phoneNumber-2",
+    "phoneType": "phoneType-2"
+  }]
+}, {
+  "socialSecurityNumber": "ssn-3",
+  "addresses": [{
+    "address1": "address1-3",
+    "address2": "address2-3",
+    "pin": "pin-3"
+  }],
+  "email": {
+    "email": "email-3",
+    "emailType": "emailType-3"
+  },
+  "phones": [{
+    "phoneNumber": "phoneNumber-3",
+    "phoneType": "phoneType-3"
+  }]
+}]

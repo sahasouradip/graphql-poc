@@ -1,0 +1,33 @@
+type Phone {
+    phoneNumber: String
+    phoneType: String
+}
+type Email {
+    email: String
+    emailType: String
+}
+type Address {
+    address1: String
+    address2: String
+    pin: String
+}
+type Contact {
+    socialSecurityNumber: String
+    addresses: [Address]
+    phones: [Phone]
+    email: Email
+    customer: Customer
+}
+
+type Customer {
+    fundId: String
+    socialSecurityNumber: String
+    firstName: String
+    lastName: String
+    contacts: [Contact]
+}
+
+type Query {
+    customer(socialSecurityNumber: String!): Customer
+    contacts(socialSecurityNumber: String!): [Contact]
+}
